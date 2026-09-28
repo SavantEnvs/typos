@@ -1,0 +1,7 @@
+# origin: https://app.mayhem.security/mayhemheroes/typos/tokenizer/6
+project: savantenvs/typos
+target: tokenizer-buggy-mhh-run-6
+
+cmds:
+  - cmd: /mayhem/tokenizer
+    libfuzzer: true
